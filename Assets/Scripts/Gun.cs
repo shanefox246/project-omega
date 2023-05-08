@@ -97,7 +97,7 @@ public class Gun : MonoBehaviour
 
     IEnumerator Reload()
     {
-        if (ammoReserves >= 0)
+        if (ammoReserves != 0)
         {
             isReloading = true;
             ammoReserves -= (maxAmmo - currentAmmo);

@@ -15,11 +15,11 @@ C:/Users/Owner/Documents/School/AdvGameDesign/gameProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51149
+52586
 Successfully changed project path to: C:/Users/Owner/Documents/School/AdvGameDesign/gameProject
 C:/Users/Owner/Documents/School/AdvGameDesign/gameProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -37,76 +37,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004773 seconds.
+Registered in 0.006193 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
+- Completed reload, in  0.868 seconds
 Domain Reload Profiling:
-	ReloadAssembly (705ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (868ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (541ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (656ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
+			SetupTypeCache (233ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (233ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008296 seconds.
+Registered in 0.008067 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.583 seconds
+- Completed reload, in  1.903 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1585ms)
-		BeginReloadAssembly (173ms)
+	ReloadAssembly (1906ms)
+		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1334ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1590ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (714ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (847ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (529ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (646ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,15 +116,15 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 166.9 MB.
-System memory in use after: 166.8 MB.
+Unloading 1839 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.7 MB.
+System memory in use after: 166.6 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2311.
-Total: 3.548300 ms (FindLiveObjects: 0.232800 ms CreateObjectMapping: 0.140900 ms MarkObjects: 2.952100 ms  DeleteObjects: 0.221700 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 5.396100 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.084600 ms MarkObjects: 4.825500 ms  DeleteObjects: 0.240600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -138,909 +138,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/UpgradeShop/ShopManager.cs
-  artifactKey: Guid(45f86cbda9939f6448b31e2d44442b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UpgradeShop/ShopManager.cs using Guid(45f86cbda9939f6448b31e2d44442b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1e375958964c4699dbe2c365ab7603') in 0.169344 seconds 
-  Import took 0.172728 seconds .
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7485b5a1bf42504fb353216958e0d56d') in 0.030816 seconds 
+  Import took 0.038023 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.261595 seconds.
-  path: Assets/Scripts/UpgradeShop/ShopManager.cs
-  artifactKey: Guid(45f86cbda9939f6448b31e2d44442b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UpgradeShop/ShopManager.cs using Guid(45f86cbda9939f6448b31e2d44442b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b504401de0dcf15a9a319dcec0eb4f1') in 0.005129 seconds 
-  Import took 0.071440 seconds .
+  Time since last request: 94.788673 seconds.
+  path: Assets/Scenes/Game
+  artifactKey: Guid(40aebe504cd6821458146f8faa823fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game using Guid(40aebe504cd6821458146f8faa823fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a975c218570c2dad38a59b17fc7d3d4') in 0.008297 seconds 
+  Import took 0.014247 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010767 seconds.
+Registered in 0.007233 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.143 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2144ms)
-		BeginReloadAssembly (251ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1789ms)
-			LoadAssemblies (195ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (512ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (903ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (718ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1760 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.3 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2314.
-Total: 3.331100 ms (FindLiveObjects: 0.171400 ms CreateObjectMapping: 0.070700 ms MarkObjects: 2.892300 ms  DeleteObjects: 0.195400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 18.878633 seconds.
-  path: Assets/Scripts/UpgradeShop/ShopManager.cs
-  artifactKey: Guid(45f86cbda9939f6448b31e2d44442b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UpgradeShop/ShopManager.cs using Guid(45f86cbda9939f6448b31e2d44442b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357f41db9a82756eceea0771366a60ce') in 0.011093 seconds 
-  Import took 0.015271 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005326 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.383 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1384ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1165ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (631ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (505ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1760 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2317.
-Total: 3.616500 ms (FindLiveObjects: 0.155100 ms CreateObjectMapping: 0.066600 ms MarkObjects: 3.187900 ms  DeleteObjects: 0.205700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10.582229 seconds.
-  path: Assets/Scripts/UpgradeShop/ShopManager.cs
-  artifactKey: Guid(45f86cbda9939f6448b31e2d44442b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UpgradeShop/ShopManager.cs using Guid(45f86cbda9939f6448b31e2d44442b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9605f156fe1b38d7da76bf913abf876d') in 0.008274 seconds 
-  Import took 0.022010 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005619 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.461 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1461ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1243ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (617ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (485ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1760 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2320.
-Total: 3.495000 ms (FindLiveObjects: 0.190900 ms CreateObjectMapping: 0.119500 ms MarkObjects: 2.982800 ms  DeleteObjects: 0.200900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007203 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1382ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1175ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (618ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (494ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2322.
-Total: 3.677900 ms (FindLiveObjects: 0.308400 ms CreateObjectMapping: 0.207600 ms MarkObjects: 2.950100 ms  DeleteObjects: 0.210900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006137 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.507 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1508ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1284ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (610ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (477ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2325.
-Total: 4.106900 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.181800 ms MarkObjects: 3.457700 ms  DeleteObjects: 0.216300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005660 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.581 seconds
+- Completed reload, in  3.279 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1581ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (3280ms)
+		BeginReloadAssembly (276ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (22ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1375ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (2834ms)
+			LoadAssemblies (214ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (789ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (198ms)
-				ProcessInitializeOnLoadAttributes (554ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2328.
-Total: 2.991300 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.071400 ms MarkObjects: 2.538800 ms  DeleteObjects: 0.223800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005620 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.380 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1380ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1178ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (659ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (528ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2331.
-Total: 3.462500 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.119200 ms MarkObjects: 2.951500 ms  DeleteObjects: 0.200400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005759 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.361 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1362ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1153ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (307ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (603ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (476ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2334.
-Total: 3.388200 ms (FindLiveObjects: 0.205700 ms CreateObjectMapping: 0.069300 ms MarkObjects: 2.834700 ms  DeleteObjects: 0.277200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005921 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.349 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1349ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1139ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (580ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (455ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2337.
-Total: 3.007400 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.063900 ms MarkObjects: 2.590800 ms  DeleteObjects: 0.203000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.403 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1403ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1176ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (600ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (478ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2340.
-Total: 4.189700 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.161700 ms MarkObjects: 3.379000 ms  DeleteObjects: 0.393700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005644 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.517 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1518ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1277ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (695ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (559ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 4.754800 ms (FindLiveObjects: 0.230300 ms CreateObjectMapping: 0.145900 ms MarkObjects: 4.078000 ms  DeleteObjects: 0.299100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005880 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.392 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1393ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1174ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (638ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (495ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2346.
-Total: 3.590500 ms (FindLiveObjects: 0.154500 ms CreateObjectMapping: 0.078800 ms MarkObjects: 3.096000 ms  DeleteObjects: 0.260300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006460 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.397 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1397ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1139ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (621ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (501ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2349.
-Total: 3.344300 ms (FindLiveObjects: 0.200300 ms CreateObjectMapping: 0.072900 ms MarkObjects: 2.858000 ms  DeleteObjects: 0.212100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006636 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.599 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1600ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1381ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (365ms)
+			SetupTypeCache (624ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (652ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1583ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (494ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (1273ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (29ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.4 MB.
+System memory in use before: 159.1 MB.
+System memory in use after: 159.1 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2352.
-Total: 3.005300 ms (FindLiveObjects: 0.143400 ms CreateObjectMapping: 0.093400 ms MarkObjects: 2.546200 ms  DeleteObjects: 0.221300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005978 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.327 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1327ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1116ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (602ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (464ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2355.
-Total: 3.708500 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.131100 ms MarkObjects: 3.117100 ms  DeleteObjects: 0.216900 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 8.895400 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.101900 ms MarkObjects: 8.202700 ms  DeleteObjects: 0.313500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
